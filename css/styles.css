@@ -1,0 +1,152 @@
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.section-products {
+  padding-top: 60px;
+  padding-bottom: 61px;
+  background-image: url(../images/Frame.png);
+}
+
+.section-products__text {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.22;
+
+  text-align: center;
+  text-transform: uppercase;
+  color: #131313;
+  margin-bottom: 12px;
+}
+
+.section-products__titel {
+  font-family: "Seymour One", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.27;
+
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #131313;
+  margin-bottom: 148px;
+}
+
+.products-list__titel {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+
+  color: #131313;
+
+  padding-top: 123px;
+  margin-bottom: 40px;
+}
+
+.products-list__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.79;
+
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  color: #131313;
+  margin-bottom: 53px;
+}
+
+.products-list__item {
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.products-list__item:not(:last-child) {
+  margin-bottom: 168px;
+}
+
+.products-list__item--green {
+  background: #aec6a5;
+}
+
+.products-list__item--yelow {
+  background: #efd478;
+}
+
+.products-list__item--brown {
+  background: #d6936d;
+}
+
+.button {
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  padding-bottom: 16px;
+}
+
+.products-list__item--green::before {
+  content: "";
+  width: 200px;
+  height: 211px;
+  background-image: url(../images/kelsey-curtis.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  box-shadow: 0px 5.34219px 20.0332px rgb(10 136 23 / 25%);
+  border-radius: 50%;
+  top: -34%;
+}
+
+.products-list__item--yelow::before {
+  content: "";
+  width: 200px;
+  height: 211px;
+  background-image: url(../images/pariwat-pannium.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  box-shadow: 0px 5.40397px 20.2649px rgba(153, 114, 23, 0.25);
+  border-radius: 50%;
+  top: -29%;
+}
+
+.products-list__item--brown::before {
+  content: "";
+  width: 200px;
+  height: 211px;
+  background-image: url(../images/victor-rutka.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  box-shadow: 0px 5.41333px 20.3px rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+  top: -29%;
+}
