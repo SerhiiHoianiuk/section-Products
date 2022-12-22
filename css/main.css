@@ -250,16 +250,37 @@ body {
   border-radius: 50%;
   top: -26%;
 }
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .products-list__item--green::before {
+    background-image: url(../images/kelsey-curtis.png);
+  }
+}
 @media screen and (min-width: 768px) {
   .products-list__item--green::before {
+    width: 200px;
+    height: 212px;
     -webkit-box-shadow: 0px 5.26027px 19.726px rgba(153, 114, 23, 0.25);
             box-shadow: 0px 5.26027px 19.726px rgba(153, 114, 23, 0.25);
+    background-image: url();
+  }
+}
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
+  .products-list__item--green::before {
+    background-image: url();
   }
 }
 @media screen and (min-width: 1200px) {
   .products-list__item--green::before {
+    width: 302px;
+    height: 318px;
     -webkit-box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.25);
             box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.25);
+    background-image: url();
+  }
+}
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+  .products-list__item--green::before {
+    background-image: url();
   }
 }
 
@@ -276,16 +297,37 @@ body {
   border-radius: 50%;
   top: -26%;
 }
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .products-list__item--yelow::before {
+    background-image: url();
+  }
+}
 @media screen and (min-width: 768px) {
   .products-list__item--yelow::before {
+    width: 200px;
+    height: 212px;
     -webkit-box-shadow: 0px 5.26027px 19.726px rgba(153, 114, 23, 0.25);
             box-shadow: 0px 5.26027px 19.726px rgba(153, 114, 23, 0.25);
+    background-image: url();
+  }
+}
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
+  .products-list__item--yelow::before {
+    background-image: url();
   }
 }
 @media screen and (min-width: 1200px) {
   .products-list__item--yelow::before {
+    width: 302px;
+    height: 318px;
     -webkit-box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.25);
             box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.25);
+    background-image: url();
+  }
+}
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+  .products-list__item--yelow::before {
+    background-image: url();
   }
 }
 
@@ -302,15 +344,36 @@ body {
   border-radius: 50%;
   top: -26%;
 }
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .products-list__item--brown::before {
+    background-image: url();
+  }
+}
 @media screen and (min-width: 768px) {
   .products-list__item--brown::before {
+    width: 200px;
+    height: 212px;
     -webkit-box-shadow: 0px 5.26027px 19.726px rgba(153, 114, 23, 0.25);
             box-shadow: 0px 5.26027px 19.726px rgba(153, 114, 23, 0.25);
+    background-image: url();
+  }
+}
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
+  .products-list__item--brown::before {
+    background-image: url();
   }
 }
 @media screen and (min-width: 1200px) {
   .products-list__item--brown::before {
+    width: 302px;
+    height: 318px;
     -webkit-box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.25);
             box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.25);
+    background-image: url();
+  }
+}
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+  .products-list__item--brown::before {
+    background-image: url();
   }
 }/*# sourceMappingURL=main.css.map */
